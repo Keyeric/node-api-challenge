@@ -40,13 +40,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+      Express Router - a way to write routes with matching urls without having to write each one every time, as well as organize your code
+
+      Express Middleware - built in middleware that comes in the express package to make dev life that much easier, (literally the way to make server without busting you a$$)
+
 - [ ] Describe Middleware?
+
+      code that intercepts requests/handlers to add functionality, like a user authentication
 
 - [ ] Describe a Resource?
 
+      everything in a node server is a resource but more specifically it is the nouns used when talking about the project (datapoint, in database)
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+      console log
+      objects
+      something from the homies (the response (res ftw))
+      JSON
+
 - [ ] How can we partition our application into sub-applications?
+
+      you can divide the server up using Express Router and module.exports and folders and middleware
 
 ## Minimum Viable Product
 
